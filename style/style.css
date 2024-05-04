@@ -1,14 +1,16 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-.nav-navbar{
+
+.nav-navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #021128;
+    background-color: #00050B;
 }
-ul{
+
+ul {
     display: flex;
     width: 500px;
     margin-right: 100px;
@@ -18,14 +20,69 @@ ul{
     color: aliceblue;
     font-family: "Lato", sans-serif;
 }
-li{
-  margin-right: 50px;  
+
+li {
+    margin-right: 50px;
 }
-.button-nav{
-    color:#021128 ;
+
+.button-nav {
+    color: #021128;
     background: #9EE493;
     border: none;
     outline: none;
     padding: 7px;
+    border-radius: 20px;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(0, 212, 255);
+    background: radial-gradient(circle, rgba(0, 212, 255, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(0, 30, 85, 1) 100%);
+    color: aliceblue;
+    height: 94vh;
+}
+
+.home-infos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    height: 100%;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.title-home {
+    margin-bottom: 5vh;
+}
+
+.title-home h1 {
+    font-family: "Lato", sans-serif;
+    font-size: 70px;
+}
+
+.title-home h4 {
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
+}
+
+.text-box-home {
+    font-family: "Lato", sans-serif;
+    font-size: 13px;
+    margin-bottom: 30px;
+
+}
+
+.home-infos button {
+    color: #021128;
+    background: #9EE493;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 10px;
     border-radius: 20px;
 }
