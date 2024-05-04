@@ -57,7 +57,13 @@ li {
 }
 
 .title-home {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
     margin-bottom: 5vh;
+    
 }
 
 .title-home h1 {
@@ -72,6 +78,7 @@ li {
 
 .text-box-home {
     font-family: "Lato", sans-serif;
+    text-align: left;
     font-size: 13px;
     margin-bottom: 30px;
 
